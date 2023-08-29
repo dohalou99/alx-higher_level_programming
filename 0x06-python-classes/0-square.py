@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""Defines a class Square."""
+"""class Square for python projrct 0x06"""
+
 class Square:
+    """Represents a square. No body."""
     pass
-    """
-    creates a square class object
-    """

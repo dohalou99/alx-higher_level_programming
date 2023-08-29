@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-"""Defines a class Square."""
+"""class Square Python project 0x06"""
+
 class Square:
-    """
-    creates a square class object
+    """class defined for square generation
     """
     def __init__(self, size):
         self.__size = size
-    """
-    initializes a square object with parameters
-    args:
-        __size(int): size of the square
-    """
