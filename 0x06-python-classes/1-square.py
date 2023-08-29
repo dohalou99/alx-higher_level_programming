@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""class Square Python project 0x06"""
+"""class Square Python project 0x06."""
+
 class Square:
     """class defined for square generation
     """
