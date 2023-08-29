@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """class Square for python project 0x06"""
-
-
 class Square:
     """Represents a square."""
 

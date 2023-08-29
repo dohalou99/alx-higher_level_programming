@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """square for python project 0x06"""
-
 class Square:
 
     def __init__(self, size=0, position=(0, 0)):
