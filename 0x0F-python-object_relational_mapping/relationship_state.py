@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """
-Contains the class definition of a State
+Contains State class and Base, an instance of declarative_base()
 """
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import relationship
+from relationship_city import City, Base
 
-Base = declarative_base()
 
 class State(Base):
     """Class State"""
@@ -14,3 +15,5 @@ class State(Base):
     id = Column(Integer, autoincrement=True,
                 primary_key=True, nullable=False, unique=True)
     name = Column(String(128), nullable=False)
+    cities = relationship('City', backref='state',
+                          cascade='all, delete-orphan')
